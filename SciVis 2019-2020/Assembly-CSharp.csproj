@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{071CBD83-4303-4F79-EB81-F190BFE32FD2}</ProjectGuid>
+    <ProjectGuid>{68E7D675-7D34-D7B9-8DBC-8F3AC5904242}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -85,66 +85,104 @@
     <Compile Include="Assets\CameraPath3\Scripts\Util\CPMath.cs" />
     <Compile Include="Assets\CameraPath3\Scripts\Util\UnityVersionWrapper.cs" />
     <Compile Include="Assets\CameraPath3\Scripts\Util\XMLVariableConverter.cs" />
+    <Compile Include="Assets\Example\Scripts\FreeCam.cs" />
+    <Compile Include="Assets\Example\Scripts\RaymarchExample.cs" />
+    <Compile Include="Assets\Example\Scripts\VFXSDFSetup.cs" />
+    <Compile Include="Assets\Experiments\SDFGenerator.cs" />
+    <Compile Include="Assets\Experiments\Types\Half.cs" />
+    <Compile Include="Assets\Experiments\Types\HalfHelper.cs" />
+    <Compile Include="Assets\Experiments\Types\HalfTest.cs" />
+    <Compile Include="Assets\Experiments\VolumeComputeMethods.cs" />
+    <Compile Include="Assets\SampleLoader\SampleLoader.cs" />
+    <Compile Include="Assets\Samples\ARRadar\ARRadarController.cs" />
+    <Compile Include="Assets\Samples\Common\Scripts\HideInPlayMode.cs" />
+    <Compile Include="Assets\Samples\Common\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+    <Compile Include="Assets\Samples\Common\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\Samples\Common\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+    <Compile Include="Assets\Samples\GenieMagicLamp\Scripts\MagicLampHandler.cs" />
+    <Compile Include="Assets\Samples\GrassWind\TendTo.cs" />
+    <Compile Include="Assets\Samples\Portal\Script\Lights.cs" />
+    <Compile Include="Assets\Samples\VoxelizedTerrain\VoxelizedTerrainController.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\SpaceshipScript.cs" />
     <Compile Include="Assets\Scripts\TreeReplacerS.cs" />
+    <Compile Include="Assets\SDFr\AVolume.cs" />
+    <Compile Include="Assets\SDFr\AVolumeData.cs" />
+    <Compile Include="Assets\SDFr\AVolumePreview.cs" />
+    <Compile Include="Assets\SDFr\AVolumeUtils.cs" />
+    <Compile Include="Assets\SDFr\Components\AVolumeBaker.cs" />
+    <Compile Include="Assets\SDFr\Components\SDFBaker.cs" />
+    <Compile Include="Assets\SDFr\SDFData.cs" />
+    <Compile Include="Assets\SDFr\SDFPreview.cs" />
+    <Compile Include="Assets\SDFr\SDFVolume.cs" />
+    <None Include="Assets\Samples\Common\Textures\octostone-Unity\About these PBR files.txt" />
     <None Include="Assets\CameraPath3\3.1x Upgrade readme.txt" />
+    <None Include="Assets\Experiments\VolumeComputeMethods.compute" />
+    <None Include="Assets\SDFr\Shaders\SDFrUtilities.hlsl" />
     <None Include="Assets\CameraPath3\readme.txt" />
     <None Include="Assets\CameraPath3\versionHistory.txt" />
+    <None Include="Assets\Samples\Portal\Shaders\PortalDistortion.shader" />
+    <None Include="Assets\SDFr\Shaders\SDFrProcedural.hlsl" />
+    <None Include="Assets\Shader Stuff.txt" />
+    <None Include="Assets\SDFr\Shaders\SDFrVolumeTex.hlsl" />
+    <None Include="Assets\SDFr\Shaders\SDFDebug.shader" />
+    <None Include="Assets\Samples\Common\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Samples\Common\Textures\harshbricks-Unity\About these PBR files.txt" />
+    <None Include="Assets\Example\Shaders\RaymarchExample.shader" />
     <None Include="Assets\Polygonal Particles\Assets\Shaders\GradientBackgroundShader.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Editor">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualEffectGraph.Runtime">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualEffectGraph.Editor">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.HighDefinition.Editor">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Media/Animation/3DAnimation2019-2020/3DAnimation 2019-2020/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Media/Animation/SciVis2019-2020/SciVis 2019-2020/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

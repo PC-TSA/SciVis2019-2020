@@ -1365,7 +1365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3f6f3f7c722b4544b97e3c75840aa33, type: 3}
   m_Name: AutoExposure
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -1380,7 +1380,7 @@ MonoBehaviour:
     value: 0
   keyValue:
     overrideState: 1
-    value: 0.8
+    value: 1
   eyeAdaptation:
     overrideState: 0
     value: 0
@@ -1402,19 +1402,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
   focusDistance:
     overrideState: 1
-    value: 5
+    value: 0.84
   aperture:
-    overrideState: 0
-    value: 5.6
+    overrideState: 1
+    value: 6.1
   focalLength:
     overrideState: 1
-    value: 50
+    value: 225
   kernelSize:
     overrideState: 0
     value: 1
