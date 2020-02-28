@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 5c8502326ce39864e80019744e4fb89b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube58
+    100004: pCube59
+    100006: pCube60
+    100008: pCube61
+    100010: pCube62
+    100012: pCube63
+    100014: pCube64
+    100016: RoomLayoutMidnight
+    100018: RoomSeparator
+    100020: RoomSeparator1
+    100022: RoomSeparator2
+    100024: RoomSeparator3
+    100026: RoomSeparator4
+    100028: RoomSeparator5
+    100030: RoomSeparator6
+    100032: RoomSeparator7
+    100034: transform100
+    100036: transform101
+    100038: transform88
+    100040: transform89
+    100042: transform90
+    100044: transform91
+    100046: transform92
+    100048: transform93
+    100050: transform94
+    100052: transform95
+    100054: transform96
+    100056: transform97
+    100058: transform98
+    100060: transform99
+    400000: //RootNode
+    400002: pCube58
+    400004: pCube59
+    400006: pCube60
+    400008: pCube61
+    400010: pCube62
+    400012: pCube63
+    400014: pCube64
+    400016: RoomLayoutMidnight
+    400018: RoomSeparator
+    400020: RoomSeparator1
+    400022: RoomSeparator2
+    400024: RoomSeparator3
+    400026: RoomSeparator4
+    400028: RoomSeparator5
+    400030: RoomSeparator6
+    400032: RoomSeparator7
+    400034: transform100
+    400036: transform101
+    400038: transform88
+    400040: transform89
+    400042: transform90
+    400044: transform91
+    400046: transform92
+    400048: transform93
+    400050: transform94
+    400052: transform95
+    400054: transform96
+    400056: transform97
+    400058: transform98
+    400060: transform99
+    2100000: White
+    2300000: RoomSeparator7
+    3300000: RoomSeparator7
+    4300000: RoomSeparator7
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
