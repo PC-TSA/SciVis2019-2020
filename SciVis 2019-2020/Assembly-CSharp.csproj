@@ -95,6 +95,7 @@
      <Compile Include="Assets\Samples\VoxelizedTerrain\VoxelizedTerrainController.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\Scripts\SpaceshipScript.cs" />
+     <Compile Include="Assets\Scripts\TimeManager.cs" />
      <Compile Include="Assets\Scripts\TreeReplacerS.cs" />
      <Compile Include="Assets\SDFr\AVolume.cs" />
      <Compile Include="Assets\SDFr\AVolumeData.cs" />
